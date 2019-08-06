@@ -1,0 +1,128 @@
+.head 
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(187, 179, 179);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 32px;
+    background-image: url(./br.jpg);
+    background-size: cover;
+}
+.head h1  {
+    margin-left: 15px;
+    margin-top: -3px;
+}
+.head h1 a {
+    color: aliceblue;
+}
+.left {
+    width: 15%;
+    height: auto;
+    background-color: azure;
+    margin-right: 10px;
+    
+ }
+.left li {
+    margin-top: 20px;
+    list-style: none;
+    background-color: rgb(96, 49, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom: 3px solid black;
+}
+.left li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.left li:hover {
+    background-color: azure;
+}
+.right 
+{
+    width: 70%;
+    height: auto;
+    border: 1px solid dimgray;
+      
+}
+.line {
+    display: flex;
+    text-align: center;
+}
+.right p a img {
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+
+    
+}
+.main {
+    display: flex;
+}
+.footer {
+    background-color: rgb(204, 198, 198);
+    width: 73%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-weight: bold;
+   margin-left: 19%;
+}
+.london {
+    background-color: beige;
+    border: 2px solid  darkgrey;
+    padding: 10px;
+
+}
+.paris {
+    background-color: beige;
+    border: 2px solid  darkgrey;
+    padding: 10px;
+    
+}
+.hanoi {
+    background-color: beige;
+    border: 2px solid  darkgrey;
+    padding: 10px;
+
+}
+.london p {
+    font-size: 16px;
+}
+.paris p {
+    font-size: 16px;
+}
+.hanoi p {
+    font-size: 16px;
+}
+.paris img {
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.hanoi img {
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.london img {
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.video {
+    margin-left: 23%;
+    margin-top: 10px;
+}
