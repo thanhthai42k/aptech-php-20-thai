@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="./bootstrap.css">
+   <link rel="stylesheet" href="./font.css">
+    //dùng container-fluid để ôm hết màn hình, tức là độ rộng 100%
+    <style>
+        .Top {
+            background-color:grey;
+            position: fixed;
+            right: 5px;
+            bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class=" navbar bg-dark d-flex align-items-center">
+       <ul class="list-unstyled d-flex align-items-center ">
+           <li ><a class="text-white mx-3" href="#">Fixed navbar</a></li>
+           <li ><a class="text-white mx-3" href="#">Home</a></li>
+           <li ><a class="text-white mx-3" href="#">Link</a></li>
+           <li ><a class="text-white mx-3" href="#">Disable</a></li>
+        </ul>
+        <div class="d-flex justify-content-center align-items-end ">
+        <ul>
+            <input type="text" placeholder="Search"> 
+        </ul>
+        <ul>
+                <button>Search...</button>
+        </ul>
+    </div>
+    </nav>
+    <div style="height: 30px; width:30px " class="Top ">
+        <a><i class="fas fa-chevron-up h-70 w-70"></i></a>
+    </div>
+    </header>      
+   <footer class="bg-dark fixed-bottom justify-content-center d-flex align-items-center text-light" style="height: 7vh">
+    Place sticky footer content here.
+   </footer>
+</body>
+</html>
