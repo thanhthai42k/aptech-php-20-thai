@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+        
+        .bg-1,.bg-2,.bg-3 {
+            width: 33,3%;
+            height: 100px;
+        }
+        .bg-1 {
+                background-color:blue;
+        }
+            .bg-2 {
+                background-color:red;
+            }
+            .bg-3 {
+                background-color: green;
+            }
+        
+        @media screen and (max-width: 1200px) {
+            
+            .bg-1 {
+                background-color: red;
+            }
+            .bg-2 {
+                background-color:blue;
+            }
+            .bg-3 {
+                background-color: green;
+            }
+        }
+        @media screen and (max-width: 575px) {
+            .bg-1 {
+                background-color:green;
+            }
+            .bg-2 {
+                background-color: red;
+            }
+            .bg-3 {
+                background-color:blue;
+            }
+        }
+    </style> 
+    <title>Document</title>
+</head>
+<body >
+    <div class="Container" >
+    <div class="bg-1"></div>
+    <div class="bg-2"></div>
+    <div class="bg-3"></div>
+    </div>
+</body>
+</html>

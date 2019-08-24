@@ -1,0 +1,43 @@
+.Content {
+    &__first {
+        height: 100px;
+    }
+    &__second {
+        height: 100px;
+    }
+    &__third {
+        height: 100px;;
+    }
+}
+.Content {
+    height: auto;
+    padding: 20px;
+    &__First{
+        &_1{
+            height: 100px;
+        }
+        &_2{
+            height: 100px;
+        }
+        &_3{
+            height: 100px;
+        }
+    }
+}
+.Header {
+       height: 100px;
+    &__Content {
+      
+        &__Left {
+
+        }
+        &__Right {
+            &--Icon {
+                border: 1px solid red;
+                width: 40px;
+                height: 40px;
+                border-radius: 2px;
+            }
+        }
+    }
+}

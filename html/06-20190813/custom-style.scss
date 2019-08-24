@@ -1,0 +1,26 @@
+.Header{
+ &__Row{
+     &__Column{
+        
+         &__Logo{
+           
+            &--size {
+
+                height: 70px;
+                width: 70px;
+
+            }
+            &--background-color {
+                background-color: purple;
+            }
+            &--text-white{
+                color: white;
+                font-size: 52px;
+                font-weight: bold;
+            }
+        }
+        }
+    }
+       
+} 
+
