@@ -7,18 +7,55 @@
     <link rel="stylesheet" href="./style.scss">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"> 
+    <style>
+        .Header_1 {
+            display: none;
+        }
+    #on.active {
+        display: block;
+    }
+    </style>
 </head>
 <body>
-    <div class="container-fluid Header bg-dark " id="top">
-        <nav class="Header__Content">
-            <div class="Header__Content__Left text-white">
-                <h1>Abum</h1></div>
-            <div class="Header__Content__Right d-flex justify-content-end">
-                <div class="Header__Content__Right--Icon  ">
-                       <a style="height: 40px; width: 40px;"><i class="fas fa-align-justify" style="height: 40px; width: 40px; color: white"></i></a>
+    <div id="on" class="Header_1 bg-dark " >
+        <div class="row  col-8 offset-1">
+            <div class="col-8  ">
+               <h2 class=" text-white my-3">About</h2>
+                <p class="text-muted ">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-4 my-3">
+                <div class="col-8 offset-1">
+                <h2><a href="#" class="text-white">Contact</a></h2>
+                <p><a href="#" class="text-white">Follow on twitter</a></p>
+                <p><a href="#" class="text-white">Like on Facaebook</a></p>
+                <p><a href="#" class="text-white">Email me</a></p>
                 </div>
             </div>
-        </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-dark ">
+            <nav class="col-8 offset-2 d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-center align-items-center ">
+                <i class="fas fa-camera text-white mt-4" style="height: 50px; width:50px;"></i>
+                <p class="text-white" style="font-size: 24px; font-weight: bold;">Album</p>
+                </div>
+                <button onclick="openon();" class="d-flex align-items-center btn"><i class="fas fa-align-justify text-white"></i></button>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3 my-5">
+                <h1 class="text-center">Album example</h1>
+                <p class="text-center">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                    </p>
+                <div class="d-flex justify-content-center ">
+                    <button class="btn btn-outline-primary bg-primary text-white mx-1">Main call to action</button>
+                    <button class="btn bg-secondary text-white">Secondary action</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     
@@ -126,5 +163,11 @@
                             <a href="#top">Back to top</a>
                         </div>
               </footer>
+              <script>
+                 document.getElementById('on').addEventListener("click",openon)
+                 function openon(){
+                     document.getElementById('on').classList.toggle("active");
+                 }
+              </script>
 </body>
 </html>
